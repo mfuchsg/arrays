@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 #define tab "\t"
@@ -14,7 +14,7 @@ void main()
 	int sum = 0;
 	const int SIZE = 5;
 	int arr[SIZE];
-	cout << "Ââåäèòå ýëåìåíòû ìàññèâà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
 	for (int i = 0; i < SIZE; i++)
 	{
 		cin >> arr[i];
@@ -37,8 +37,8 @@ void main()
 
 	}
 	a = sum / (SIZE);
-	cout << "Ñóììà: " << sum << endl;
-	cout << "Ñðåäíåå àðèôìèòè÷åñêîå: " << a << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð°: " << sum << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼Ð¸Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ: " << a << endl;
 
 	int max = arr[SIZE];
 	for (int i = SIZE - 1; i > 0; i--)
@@ -48,7 +48,7 @@ void main()
 			max = arr[i];
 		}
 	}
-	cout << "Ìàêñèìàëüíî ÷èñëî: " << max << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾ Ñ‡Ð¸ÑÐ»Ð¾: " << max << endl;
 	int min = arr[0];
 	for (int i = 0; i < SIZE; i++)
 	{
@@ -57,14 +57,14 @@ void main()
 			min = arr[i];
 		}
 	}
-	cout << "Ìèíèìàëüíîå ÷èñëî: " << min << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: " << min << endl;
 #endif // sr
 
 #ifdef h
 	int n;
 	int const SIZE = 10;
 	int arr[SIZE] = { 1,2,3,4,5,6,7,8,9,10 };
-	cout << "Ââåäèòå íà ñêîëüêî ñäâèíóòü ìàññèâ: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð° ÑÐºÐ¾Ð»ÑŒÐºÐ¾ ÑÐ´Ð²Ð¸Ð½ÑƒÑ‚ÑŒ Ð¼Ð°ÑÑÐ¸Ð²: "; cin >> n;
 	int a;
 	a = SIZE - n;
 
