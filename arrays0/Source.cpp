@@ -2,14 +2,14 @@
 using namespace std;
 
 #define tab "\t"
-#define h
-//#define sr
+#define zadani_1_2
+//#define zadanie_3
 
 void main()
 {
 	setlocale(LC_ALL, "Russian");
 
-#ifdef sr
+#ifdef zadani_1_2
 	int a = 0;
 	int sum = 0;
 	const int SIZE = 5;
@@ -58,9 +58,9 @@ void main()
 		}
 	}
 	cout << "Минимальное число: " << min << endl;
-#endif // sr
+#endif // zadani_1_2
 
-#ifdef h
+#ifdef zadanie_3
 	int n;
 	int const SIZE = 10;
 	int arr[SIZE] = { 1,2,3,4,5,6,7,8,9,10 };
@@ -82,6 +82,6 @@ void main()
 
 	}
 	cout << endl;
-#endif // h
+#endif // zadanie_3
 
 }
